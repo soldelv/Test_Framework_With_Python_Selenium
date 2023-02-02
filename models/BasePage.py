@@ -17,10 +17,6 @@ def tear_down():
     driver.quit()
 
 
-def logout():
-    print("to do")
-
-
 def login(user, password):
     open_page()
 
@@ -34,8 +30,3 @@ def login(user, password):
     login_button.click()
 
     return "Login ok"
-
-
-def check_login_fail():
-    fail_message = "to do"
-    return fail_message
